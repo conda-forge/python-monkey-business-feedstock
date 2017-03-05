@@ -11,6 +11,18 @@ Summary: Utility functions for monkey-patching python code
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-monkey-business-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-monkey-business-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-monkey-business-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-monkey-business-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-monkey-business-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-monkey-business-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-monkey-business/badges/version.svg)](https://anaconda.org/conda-forge/python-monkey-business)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-monkey-business/badges/downloads.svg)](https://anaconda.org/conda-forge/python-monkey-business)
+
 Installing python-monkey-business
 =================================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-monkey-business-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-monkey-business-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-monkey-business-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-monkey-business-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-monkey-business-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-monkey-business-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-monkey-business/badges/version.svg)](https://anaconda.org/conda-forge/python-monkey-business)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-monkey-business/badges/downloads.svg)](https://anaconda.org/conda-forge/python-monkey-business)
 
 
 Updating python-monkey-business-feedstock
