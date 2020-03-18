@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 1001
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -32,6 +32,7 @@ test:
 about:
   home: https://github.com/theatlantic/python-monkey-business
   license: BSD 2-Clause
+  license_file: LICENSE
   summary: 'Utility functions for monkey-patching python code'
   license_family: BSD
 
