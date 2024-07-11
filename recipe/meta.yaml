@@ -1,5 +1,5 @@
 {% set name = "python-monkey-business" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-monkey-business-{{ version }}.tar.gz
-  sha256: 9976522989766f00b2aaa24ec96eacb91a6de7b7001d1452079323b071988e0e
+  sha256: 8393839cc741415ed5ddc2bd58e2d4ce07f966a7d26b7aebff19dcec64818edc
 
 build:
-  number: 1003
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
